@@ -16,23 +16,23 @@
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-1">
                 <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                     <img src="img/nasaspaceappslogo.png" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
-                    <span class="d-flex flex-wrap align-items-center justify-content-center px-2">
-                      <img src="https://img.icons8.com/?size=100&id=13800&format=png&color=000000" width="18" height="20"/>
-                      <span class="px-1 text-white">Nepal</span>
-                    </span>
                 </a>
 
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                   <li><a href="#" class="nav-link px-2 text-white underline-hover">Home</a></li>
                   <li><a href="#" class="nav-link px-2 text-white underline-hover">NASA Space Apps Challenge</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white underline-hover">Locations</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white underline-hover">FAQs</a></li>
+                  <li><a href="#locations" class="nav-link px-2 text-white underline-hover">Locations</a></li>
+                  <li><a href="#faqs" class="nav-link px-2 text-white underline-hover">FAQs</a></li>
                   <li><a href="#" class="nav-link px-2 text-white underline-hover">Contact</a></li>
                 </ul>
-        
+                
+                <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                  <img src="img/naso-logo-white.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+                </a>
+
                 <div class="text-end">
                   <!-- <button type="button" class="btn btn-outline-light me-2"><strong>Login</strong></button> -->
-                  <button type="button" class="btn btn-light color-5F18EE"><strong>Register</strong></button>
+                  <button type="button" onClick='window.location="#locations"' class="btn btn-light color-5F18EE"><strong>Register</strong></button>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
             <li><a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/pokhara/" class="nav-link text-white mx-2 px-2 underline-hover">Pokhara</a></li>
             <li><a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/lalitpur/" class="nav-link text-white mx-2 px-2 underline-hover">Lalitpur</a></li>
             <li><a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/janakpur/" class="nav-link text-white mx-2 px-2 underline-hover">Janakpur</a></li>
-            <li><a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/itahari/" class="nav-link text-white mx-2 px-2 underline-hover">Itahari</a></li>
+            <li><a href="#card1" class="nav-link text-white mx-2 px-2 underline-hover">Itahari</a></li>
           </ul>
   
           <div class="d-inline-flex gap-2 m-5">
@@ -87,7 +87,7 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
 
-            <map name="image-map">
+            <!-- <map name="image-map">
                 <area target="_blank" alt="Koshi" title="Koshi" href="https://en.wikipedia.org/wiki/Koshi_Province" coords="1025,654,1022,670,1019,680,1030,675,1035,690,1060,706,1045,698,1074,707,1081,698,1094,697,1106,702,1117,702,1129,700,1138,696,1147,694,1157,694,1162,701,1172,707,1178,702,1182,693,1182,681,1193,662,1197,625,1187,604,1172,589,1175,562,1180,514,1190,485,1200,461,1181,449,1145,441,1125,463,1112,458,1102,456,1088,459,1073,458,1060,454,1045,461,1026,438,1002,426,993,428,985,413,971,415,959,412,952,422,951,435,959,452,959,463,959,482,949,496,932,507,922,520,911,531,913,548,910,558,927,561,935,568,932,576,931,586,932,596,928,607,918,611,920,619,935,613,948,620,958,629,961,638,968,646,986,647,1001,643,1012,635,1018,642,1022,645,1028,647" shape="poly">
                 <area target="_blank" alt="Madhesh" title="Madhesh" href="" coords="673,526,665,534,659,542,678,528,690,532,703,534,674,529,712,539,723,542,736,543,746,551,758,561,772,565,790,571,806,581,826,577,840,574,851,577,863,586,874,596,886,600,900,605,907,612,896,612,902,621,915,624,927,622,937,621,949,629,955,639,959,647,967,653,983,653,998,654,1008,646,1019,650,1018,671,1007,680,1004,690,994,694,986,696,959,688,915,665,907,672,894,667,878,659,869,663,855,673,837,662,834,637,825,627,812,627,803,631,792,637,778,642,755,639,758,625,733,627,724,611,712,605,706,597,697,603,675,592,682,577,675,550,667,544" shape="poly">
                 <area target="_blank" alt="Bagmati" title="Bagmati" href="" coords="744,381,758,374,770,379,783,382,797,374,814,377,819,388,832,366,842,384,852,398,861,416,869,431,874,448,891,445,886,415,903,404,906,421,910,435,937,445,947,442,955,455,954,472,947,487,933,499,911,524,905,556,910,565,918,563,928,570,920,580,925,587,927,600,913,605,879,593,859,573,834,563,819,571,802,573,771,560,750,551,741,536,721,536,697,524,677,524,663,519,657,531,647,541,621,533,609,522,593,526,581,528,583,512,604,506,633,489,648,484,650,467,672,459,685,467,701,461,694,445,707,434,707,417,721,413,729,395" shape="poly">
@@ -95,8 +95,19 @@
                 <area target="_blank" alt="Lumbini" title="Lumbini" href="" coords="188,328,249,372,249,379,289,408,300,391,328,393,347,407,355,391,347,378,343,364,352,346,374,336,370,324,379,316,374,304,382,289,399,294,424,295,446,305,453,316,446,326,428,329,416,353,446,390,461,390,471,400,485,403,498,413,512,420,515,432,502,434,495,447,539,452,579,462,571,474,552,476,532,477,534,488,542,498,542,518,561,525,561,542,527,525,495,522,492,539,480,544,461,525,429,525,417,515,396,517,396,498,391,483,353,488,311,458,289,443,274,459,242,436,214,421,207,404,190,410,185,395,173,378,155,365" shape="poly">
                 <area target="_blank" alt="Karnali" title="Karnali" href="" coords="203,29,215,34,222,26,232,26,289,42,298,36,304,44,304,54,308,64,318,73,314,83,346,91,363,100,378,122,389,122,392,132,410,150,424,149,441,159,471,169,480,179,491,196,500,216,525,240,517,269,501,301,485,307,456,307,431,297,405,291,380,285,365,304,370,314,372,312,355,326,365,336,345,346,335,360,343,393,341,400,328,392,296,388,284,402,252,380,252,368,188,324,175,292,149,279,185,287,200,287,217,312,230,304,205,270,223,247,210,230,229,204,242,209,257,199,263,164,249,154,263,113,246,105,220,106,214,110,209,94,182,86,178,69,202,62" shape="poly">
                 <area target="_blank" alt="Sudurpaschim" title="Sudurpaschim" href="" coords="82,2,141,40,155,57,158,86,158,94,177,87,204,99,205,113,217,111,239,108,254,113,247,126,242,145,246,158,256,165,252,195,239,202,227,199,210,211,212,224,209,234,215,246,200,260,204,273,224,303,202,278,183,276,165,275,148,266,143,278,156,287,167,293,175,307,182,322,145,364,79,320,69,317,72,337,15,295,0,290,8,258,20,234,39,216,27,194,54,165,44,138,74,114,81,99,96,102,121,71,124,52" shape="poly">
-            </map>
-            <img src="img/Nepal.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </map> -->
+            <!-- <img src="img/Nepal.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
+            
+            <div class="container ">
+              <div class="col">
+                <div class="card" width="400" height="200">
+                  <div class="ratio ratio-16x9">
+                    <iframe width="1424" height="652" src="https://www.youtube.com/embed/F06I3_WiJoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
           </div>
           <div class="col-lg-6 ">
@@ -126,12 +137,41 @@
     </div>
 
 
+    <div class="container col-xxl-8">
+      <div class="row flex-lg-row-reverse align-items-center g-5 mb-4">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <div class="container ">
+            <div class="col">
+              <div class="card" width="400" height="200">
+                <div class="ratio ratio-16x9">
+                  <iframe width="1424" height="652" src="https://www.youtube.com/embed/AoGcCeOhJkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 ">
+          <div class="container "></div>
+            <div class="col">
+              <div class="card" width="400" height="200">
+                <div class="ratio ratio-16x9">
+                  <iframe width="1424" height="652" src="https://www.youtube.com/embed/37dqOg2ljMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
 <!-- Location Details -->
-    <div id="carouselExample" class="carousel container slide">
+    <div id="carouselExample" class="carousel container slide mt-3">
       <div class="carousel-inner">
-        <h2 class="fw-bold  color-5F18EE"> LOCATIONS </h2>
-        <div class="carousel-item active">
-          <div class="card p-4">
+        <h2 id="locations" class="fw-bold  color-5F18EE py-3"> LOCATIONS </h2>
+        <div id="carousel-item-1" class="carousel-item active">
+          <div id="card1" class="card p-4">
             <div class="row">
               <div class="col-md-4">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Itahari_International_College_Tower_Block.jpg" width="300" height="300" class="" alt="...">
@@ -148,7 +188,7 @@
           </div>
         </div>
 
-        <div class="carousel-item">
+        <div id="carousel-item-2" class="carousel-item">
           <div class="card p-4">
             <div class="row">
               <div class="col-md-4">
@@ -164,7 +204,7 @@
           </div>
         </div>
 
-        <div class="carousel-item">
+        <div id="carousel-item-3" class="carousel-item">
           <div class="card p-4">
             <div class="row">
               <div class="col-md-4">
@@ -194,7 +234,7 @@
 
 <!-- Frequently Asked Questions -->
     <div class="container my-5">
-      <h2 class="display-6 fw-bold color-5F18EE lh-1 mb-4">Frequently Asked Questions</h2>
+      <h2 id="faqs" class="display-6 fw-bold color-5F18EE lh-1 mb-4">Frequently Asked Questions</h2>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -290,18 +330,14 @@
 
     <div class="bgcolor-5F18EE text-white">
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5">
-        <div class="col">
+        <div class="col p-5">
           <div class="row">
             <a href="/" class="d-flex  mb-3 link-body-emphasis text-decoration-none">
               <img src="img/nasaspaceappslogo.png" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
-              <span class="d-flex flex-wrap align-items-center justify-content-center px-2">
-                <img src="https://img.icons8.com/?size=100&id=13800&format=png&color=000000" width="18" height="20"/>
-                <span class="px-1 text-white">Nepal</span>
-              </span>
-          </a>
+            </a>
           </div>
 
-          <div class="row">
+          <div class="row px-4">
             <h5>Connect with us:</h5>
             <ul class="list-unstyled d-flex">
               <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
@@ -340,7 +376,7 @@
           <!-- <a href="/" class="d-flex align-items-center my-3 link-body-emphasis text-decoration-none">
             <img src="img/nasologo.png" alt="Naso Logo" width="200" height="60" class="d-inline-block align-text-top">
           </a> -->
-          <img class="alignnone size-full wp-image-59" src="http://nepalastronomicalsociety.org/wp-content/uploads/2015/10/logo.png" alt="logo" width="118" height="25" />
+          <img class="alignnone size-full wp-image-59" src="img/naso-logo-white.png" alt="logo" width="80" height="80" />
           <p class="mt-3 mx-2 text-white-70">
             <strong>Address:</strong>
             House No. 39/30, Manjushree Marg Battishputali, <br/> Old Baneshwor Kathmandu 44621, Nepal<br/>
@@ -348,7 +384,7 @@
             <strong>Email:</strong> <a class="text-white text-decoration-none" href="mailto:info@nepalastronomicalsociety.org">info@nepalastronomicalsociety.org</a></p>
         </div>
       </footer>
-      <p class="text-center py-3 border-top">&copy; COPYRIGHT 2007-2024, NASA Space Apps Nepal, Organized by NASO</p>
+      <p class="text-center py-3 border-top">&copy; COPYRIGHT 2019-2024, NASA Space Apps Nepal, Organized by NASO</p>
     </div>
       
 
